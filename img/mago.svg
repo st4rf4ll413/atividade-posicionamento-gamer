@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradMago" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c1d95"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <radialGradient id="fogo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="60%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#dc2626" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#gradMago)"/>
+  <circle cx="200" cy="115" r="75" fill="url(#fogo)" opacity="0.8"/>
+  <g fill="#ffffff" opacity="0.95">
+    <!-- Chapéu de Mago / Capuz -->
+    <path d="M200 35 L225 95 L175 95 Z" fill="#fde047"/>
+    <ellipse cx="200" cy="95" rx="38" ry="10" fill="#ca8a04"/>
+    <!-- Rosto Misterioso -->
+    <circle cx="200" cy="115" r="28" fill="#1e1b4b"/>
+    <circle cx="192" cy="114" r="4" fill="#38bdf8"/>
+    <circle cx="208" cy="114" r="4" fill="#38bdf8"/>
+    <!-- Manto / Túnica -->
+    <path d="M175 135 Q200 125 225 135 L245 220 L155 220 Z" fill="#312e81"/>
+    <!-- Cajado e Orbe Flamejante -->
+    <line x1="245" y1="70" x2="255" y2="220" stroke="#d97706" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="245" cy="70" r="16" fill="#f97316"/>
+    <circle cx="245" cy="70" r="8" fill="#fef08a"/>
+  </g>
+  <text x="200" y="215" fill="#fef08a" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" letter-spacing="2">IGNIS • MAGO DO FOGO</text>
+</svg>

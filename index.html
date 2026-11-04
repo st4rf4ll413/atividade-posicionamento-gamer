@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lobby de Campeões - Arena RPG</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===================================================================
+       1. CABEÇALHO / HUD (Desafio: position: sticky no topo)
+       =================================================================== -->
+  <header class="hud-superior">
+    <h1 class="hud-titulo">ARENA RPG • LOBBY DE CAMPEÕES</h1>
+    <span class="hud-status-servidor">ONLINE • PING 18ms</span>
+  </header>
+
+  <!-- ===================================================================
+       2. CONTEÚDO PRINCIPAL
+       =================================================================== -->
+  <main class="container-arena">
+
+    <section>
+      <h2 class="titulo-secao">ESCOLHA SEU CAMPEÃO</h2>
+      <p class="descricao-secao">
+        Selecione um herói para liderar seu esquadrão nas batalhas ranqueadas.
+      </p>
+    </section>
+
+    <!-- CARDS DE CAMPEÕES -->
+    <section>
+
+      <!-- CARD 1: MAGO IGNIS -->
+      <article class="card-campeao">
+        <span class="badge-raridade">LENDÁRIO</span>
+        <span class="tag-status">PRONTO</span>
+        <img class="img-personagem" src="img/mago.svg" alt="Mago Ignis">
+        <h3 class="nome-personagem">IGNIS, O PIROMANTE</h3>
+        <p class="classe-personagem">Classe: Mago de Fogo • Nível 85</p>
+        <p class="detalhes-personagem">Mestre em piromancia e tempestades incandescentes.</p>
+        <button type="button" class="btn-acao">SELECIONAR CAMPEÃO</button>
+      </article>
+
+      <!-- CARD 2: CIBORGUE VEKTOR -->
+      <article class="card-campeao">
+        <span class="badge-raridade">ÉPICO</span>
+        <span class="tag-status">PRONTO</span>
+        <img class="img-personagem" src="img/robo.svg" alt="Ciborgue Vektor">
+        <h3 class="nome-personagem">VEKTOR-09</h3>
+        <p class="classe-personagem">Classe: Vanguarda Cibernética • Nível 78</p>
+        <p class="detalhes-personagem">Blindagem de titânio puro e canhões iônicos de longo alcance.</p>
+        <button type="button" class="btn-acao">SELECIONAR CAMPEÃO</button>
+      </article>
+
+      <!-- CARD 3: NINJA KAGE -->
+      <article class="card-campeao">
+        <span class="badge-raridade">RARO</span>
+        <span class="tag-status">BLOQUEADO</span>
+        <img class="img-personagem" src="img/ninja.svg" alt="Ninja Kage">
+        <h3 class="nome-personagem">KAGE, A SOMBRA</h3>
+        <p class="classe-personagem">Classe: Assassino Furtivo • Nível 64</p>
+        <p class="detalhes-personagem">Move-se invisível pela névoa sombria com lâminas espectrais.</p>
+        <button type="button" class="btn-acao">DESBLOQUEAR NO NV 70</button>
+      </article>
+
+    </section>
+
+  </main>
+
+  <!-- ===================================================================
+       3. BOTÃO DE CHAT (Desafio: position: fixed na tela)
+       =================================================================== -->
+  <button type="button" class="btn-chat-squad">CHAT DO SQUAD (3)</button>
+
+</body>
+</html>
